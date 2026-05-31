@@ -2,13 +2,13 @@
 
 Este projeto é uma aplicação web simples desenvolvida para demonstrar na prática o funcionamento da arquitetura **MVC (Model-View-Controller)**. A aplicação permite o cadastro e a listagem de alunos.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 * **Java**
 * **Spring Boot** (Spring Web)
 * **Thymeleaf** (Motor de templates para a View)
 * **Maven** (Gerenciador de dependências)
 
-## 🏗️ Arquitetura MVC na Prática
+## Arquitetura MVC na Prática
 
 Este projeto foi construído com uma separação física de diretórios que reflete diretamente a separação arquitetural. Cada camada tem uma responsabilidade única e bem definida:
 
@@ -27,7 +27,7 @@ A camada View é responsável puramente pela interface com o usuário e apresent
 * **Arquivos:** `alunos-form.html` (para entrada de dados) e `alunos-lista.html` (para exibição).
 * **Responsabilidade:** Ela usa o Thymeleaf para capturar os dados que foram enviados pelo Controller (a lista de alunos) e exibi-los na tela. A View não toma decisões lógicas nem acessa o banco de dados.
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 1. Certifique-se de ter o Java instalado em sua máquina.
 2. Abra a pasta raiz do projeto no **Visual Studio Code**.
